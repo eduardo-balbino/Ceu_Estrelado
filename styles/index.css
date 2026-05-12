@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/mountains-universe-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    display: flex ;  
+    padding-inline: 72px;
+    align-items: center;
+    gap: 46px;
+    
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 46px;
+    }
+}
